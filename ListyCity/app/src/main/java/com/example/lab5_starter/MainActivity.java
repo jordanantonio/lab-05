@@ -28,7 +28,6 @@ public class MainActivity extends AppCompatActivity implements CityDialogFragmen
     private ArrayAdapter<City> cityArrayAdapter;
     private FirebaseFirestore db;
     private CollectionReference citiesRef;
-    private CollectionReference citiesRef;
     private Button deleteModeButton;
     private boolean isDeleteMode = false;
 
